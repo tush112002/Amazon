@@ -1,0 +1,1568 @@
+/* CSS for form container */
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #faf3e0 !important;
+    color: #333; 
+}
+
+/* Form Styles */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff; /* White background for forms */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #ff9900; /* Amazon orange */
+    border-color: #ff9900; /* Amazon orange */
+}
+
+.btn-primary:hover {
+    background-color: #cc7a00; /* Darker orange on hover */
+    border-color: #cc7a00; /* Darker orange on hover */
+}
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Poppins font as the primary font */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+
+/* Form Styles */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff; /* White background for forms */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #ff9900; /* Amazon orange */
+    border-color: #ff9900; /* Amazon orange */
+}
+
+.btn-primary:hover {
+    background-color: #cc7a00; /* Darker orange on hover */
+    border-color: #cc7a00; /* Darker orange on hover */
+}
+
+/* Modal Styles */
+.modal-content {
+    background-color: #fff; /* White background for modals */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.modal-header {
+    background-color: #232f3e; /* Dark blue background for modal header */
+    color: #fff; /* White text */
+    border-bottom: none; /* Remove border */
+}
+
+.modal-footer {
+    background-color: #f8f9fa; /* Light gray background for modal footer */
+}
+
+.close {
+    color: #fff; /* White close button text */
+}
+
+.close:hover {
+    color: #ccc; /* Light gray close button text on hover */
+}
+
+
+
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container .mb-3 {
+    margin-bottom: 15px;
+}
+
+.form-container .form-label {
+    font-weight: bold;
+}
+
+.form-container .form-control {
+    margin-bottom: 15px;
+}
+
+.form-container .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+.amazon-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Custom CSS for sign-up and sign-in forms */
+
+/* Container styling */
+.container {
+    margin-top: 20px; /* Add margin from top */
+}
+
+/* Form container styling */
+.form-container {
+    border: 1px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+}
+
+/* Amazon logo styling */
+.amazon-logo {
+    display: block;
+    margin: 0 auto 20px; /* Center the logo and add margin at the bottom */
+}
+
+/* Form input styling */
+.form-control {
+    margin-bottom: 15px; /* Add margin between form inputs */
+}
+
+/* Button styling */
+.btn-primary {
+    width: 100%; /* Make buttons full width */
+}
+
+
+/* Add spacing between dropdown and products list */
+/* Product Card Styles */
+.product-card {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+.product-header {
+	display: flex;
+	align-items: center;
+}
+
+.product-image {
+	width: 120px;
+	height: 120px;
+	border-radius: 8px;
+	margin-right: 16px;
+}
+
+.product-info {
+	flex: 1;
+}
+
+.product-name {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.product-price {
+	font-size: 16px;
+	color: #007bff;
+}
+
+.product-description {
+	margin-top: 12px;
+}
+
+.product-category {
+	margin-top: 8px;
+	font-style: italic;
+}
+
+.product-actions {
+	margin-top: 16px;
+}
+
+#productsList {
+	margin-top: 20px;
+  }
+  
+  /* Apply effects to the products list */
+  #productsList .product-card {
+	transition: box-shadow 0.3s ease;
+  }
+  
+  #productsList .product-card:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Apply effects to the products list */
+#productsList .product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+}
+
+/* Add hover effect to product card */
+#productsList .product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover */
+    transform: translateY(-5px); /* Add translateY for a slight lift effect */
+}
+
+/* Product Card Styles */
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.product-description {
+    margin-top: 12px;
+}
+
+.product-category {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.product-actions {
+    margin-top: 16px;
+}
+
+/* CSS for form container */
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    transition: color 0.3s ease; /* Add transition for text color */
+}
+
+.form-container .form-label {
+    font-weight: bold;
+}
+
+.form-container .form-control {
+    margin-bottom: 15px;
+}
+
+.form-container .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-container:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
+    transform: translateY(-5px); /* Add translateY for a slight lift effect on hover */
+}
+
+.amazon-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Custom CSS for sign-up and sign-in forms */
+
+.container {
+    margin-top: 20px; /* Add margin from top */
+}
+
+/* Form container styling */
+.form-container {
+    border: 1px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+}
+
+/* Amazon logo styling */
+.amazon-logo {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Form input styling */
+.form-control {
+    margin-bottom: 15px;
+}
+
+
+/* Button styling */
+.btn-primary {
+    width: 100%; /* Make buttons full width */
+}
+
+
+/* Add spacing between dropdown and products list */
+#productsList {
+    margin-top: 20px;
+}
+
+/* Apply effects to the products list */
+#productsList .product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition for box-shadow and transform */
+}
+
+/* Add hover effect to product card */
+#productsList .product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover */
+    transform: translateY(-5px); /* Add translateY for a slight lift effect */
+}
+
+/* Add margin between product items */
+#productsList .product-card + .product-card {
+    margin-top: 20px;
+}
+
+/* Product Card Styles */
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.product-description {
+    margin-top: 12px;
+}
+
+.product-category {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.product-actions {
+    margin-top: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+    width: 500px;
+    display: block; /* Ensure button is a block-level element */
+    margin-left: auto; /* Set left margin to auto */
+    margin-right: auto; /* Set right margin to auto */
+}
+
+.btn-primary i {
+    margin-right: 5px; /* Adjust margin between icon and text */
+    font-size: 1.2rem; /* Adjust icon size */
+    color: white; /* Set icon color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border: none;
+	border-radius: 4px;
+	padding: 8px 16px;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+}
+
+/* Cart item styles */
+.cart-item {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.cart-item .cart-product {
+	display: flex;
+}
+
+.cart-item .cart-product-image {
+	width: 100px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.cart-item .cart-product-info {
+	flex: 1;
+}
+
+.cart-item .cart-product-name {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.cart-item .cart-product-price {
+	color: #666;
+	margin-bottom: 5px;
+}
+
+.cart-item .cart-product-quantity {
+	color: #999;
+}
+
+.cart-item .cart-actions {
+	margin-top: 10px;
+}
+
+/* Add margin between tabs and cart items */
+#cartItems {
+    margin-top: 20px;
+}
+
+/* Change effect when clicking on tabs */
+.nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Container for profile section */
+.profile-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+	padding: 30px;
+	border-radius: 10px;
+	width: 1200px;
+	height: 550px;
+}
+
+/* Style for the profile section */
+.profile-section {
+	margin-bottom: 30px;
+}
+
+/* Style for the profile avatar */
+.profile-avatar {
+	margin-bottom: 40px;
+}
+
+/* Style for the avatar image */
+.avatar-img {
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+/* Style for profile details */
+.profile-details {
+	margin-bottom: 30px;
+}
+
+/* Style for profile inputs */
+.profile-input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Style for profile details label */
+.profile-input label {
+	font-weight: bold;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Style for profile inputs */
+.profile-input input[type="text"] {
+	width: 300px;
+}
+
+/* Remove blue color effect when clicking on tabs */
+.nav-link.active {
+    background-color: transparent; /* Remove background color */
+    color: inherit; /* Inherit text color */
+    border-radius: 0; /* Remove border radius */
+    border-bottom: 2px solid #007bff; /* Add bottom border */
+}
+
+/* Add hover effect to tabs */
+.nav-link:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+}
+
+
+/* Style for the update profile button */
+#updateProfileBtn,
+#saveChangesBtn {
+	width: 250px;
+	border-radius: 4px;
+	padding: 10px 16px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+#updateProfileBtn {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+}
+
+#updateProfileBtn:hover {
+	background-color: #0056b3;
+}
+
+#saveChangesBtn {
+	background-color: #28a745;
+	color: #fff;
+	border: none;
+}
+
+#saveChangesBtn:hover {
+	background-color: #218838;
+}
+
+/* Center all content within the profile container */
+.profile-container * {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Style the container for the custom select */
+.custom-select {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Style the select to hide the default arrow */
+  .custom-select select {
+	display: none;
+  }
+  
+  /* Style the custom dropdown arrow */
+  .custom-select::after {
+	content: '\25BC'; /* Unicode character for down arrow */
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	pointer-events: none; /* Ensure the arrow does not interfere with the select */
+  }
+  
+  /* Apply styles to the filter button */
+.dropdowncontainer .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdowncontainer .btn-primary i {
+    margin-right: 5px; /* Adjust margin between icon and text */
+}
+
+.dropdowncontainer .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.dropdowncontainer {
+    text-align: center;
+    margin-top: 20px; /* Add some spacing from the top */
+}
+
+.dropdowncontainer .custom-select {
+    display: inline-block;
+    width: 200px; /* Set width of the select */
+    height: 50px; /* Set height of the select */
+    margin-right: 10px; /* Add some spacing between the select and button */
+    vertical-align: middle; /* Align vertically with the button */
+    transition: box-shadow 0.3s ease;
+}
+
+.dropdowncontainer .custom-select select {
+    width: 100%; /* Set width to fill the container */
+    height: 100%; /* Set height to fill the container */
+    padding: 10px; /* Add padding to match button */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    -webkit-appearance: none; /* Remove default arrow for WebKit browsers */
+    -moz-appearance: none; /* Remove default arrow for Firefox */
+    appearance: none; /* Remove default arrow for other browsers */
+    transition: box-shadow 0.3s ease;
+}
+
+.dropdowncontainer .custom-select::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%; /* Position arrow vertically centered */
+    transform: translateY(-50%);
+    right: 10px;
+    pointer-events: none; /* Ensure the arrow does not interfere with the select */
+}
+
+.dropdowncontainer button {
+    display: inline-block; /* Display button inline with select */
+    width: 200px; /* Set width of the button */
+    height: 50px; /* Set height of the button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    vertical-align: middle; /* Align vertically with the select */
+    transition: background-color 0.3s ease;
+}
+
+
+
+  /* Style the button */
+  button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	height: 50px; /* Set height of the button */
+	transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Style the container for the custom select */
+  .custom-select {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px; /* Add some spacing between the select and button */
+  }
+  
+  /* Style the select to hide the default arrow */
+  .custom-select select {
+	display: block;
+	width: 200px; /* Set width of the select */
+	height: 50px; /* Set height of the select */
+	padding: 10px; /* Add padding to match button */
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	-webkit-appearance: none; /* Remove default arrow for WebKit browsers */
+	-moz-appearance: none; /* Remove default arrow for Firefox */
+	appearance: none; /* Remove default arrow for other browsers */
+  }
+  
+  /* Style the custom dropdown arrow */
+  .custom-select::after {
+	content: '\25BC'; /* Unicode character for down arrow */
+	position: absolute;
+	top: 50%; /* Position arrow vertically centered */
+	transform: translateY(-50%);
+	right: 10px;
+	pointer-events: none; /* Ensure the arrow does not interfere with the select */
+  }
+  
+  /* Style the button */
+  button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	height: 50px; /* Set height of the button */
+  }
+  
+  button:hover {
+	background-color: #0056b3;
+  }
+/* Modal Styles */
+.modal-content {
+    background-color: #fff; /* White background for modals */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.modal-header {
+    background-color: #232f3e; /* Dark blue background for modal header */
+    color: #fff; /* White text */
+    border-bottom: none; /* Remove border */
+}
+
+.modal-footer {
+    background-color: #f8f9fa; /* Light gray background for modal footer */
+}
+
+.close {
+    color: #fff; /* White close button text */
+}
+
+.close:hover {
+    color: #ccc; /* Light gray close button text on hover */
+}
+
+
+
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container .mb-3 {
+    margin-bottom: 15px;
+}
+
+.form-container .form-label {
+    font-weight: bold;
+}
+
+.form-container .form-control {
+    margin-bottom: 15px;
+}
+
+.form-container .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+.amazon-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Custom CSS for sign-up and sign-in forms */
+
+/* Container styling */
+.container {
+    margin-top: 20px; /* Add margin from top */
+}
+
+/* Form container styling */
+.form-container {
+    border: 1px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+}
+
+/* Amazon logo styling */
+.amazon-logo {
+    display: block;
+    margin: 0 auto 20px; /* Center the logo and add margin at the bottom */
+}
+
+/* Form input styling */
+.form-control {
+    margin-bottom: 15px; /* Add margin between form inputs */
+}
+
+/* Button styling */
+.btn-primary {
+    width: 100%; /* Make buttons full width */
+}
+
+
+/* Add spacing between dropdown and products list */
+/* Product Card Styles */
+.product-card {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+.product-header {
+	display: flex;
+	align-items: center;
+}
+
+.product-image {
+	width: 120px;
+	height: 120px;
+	border-radius: 8px;
+	margin-right: 16px;
+}
+
+.product-info {
+	flex: 1;
+}
+
+.product-name {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.product-price {
+	font-size: 16px;
+	color: #007bff;
+}
+
+.product-description {
+	margin-top: 12px;
+}
+
+.product-category {
+	margin-top: 8px;
+	font-style: italic;
+}
+
+.product-actions {
+	margin-top: 16px;
+}
+
+#productsList {
+	margin-top: 20px;
+  }
+  
+  /* Apply effects to the products list */
+  #productsList .product-card {
+	transition: box-shadow 0.3s ease;
+  }
+  
+  #productsList .product-card:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Apply effects to the products list */
+#productsList .product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+}
+
+/* Add hover effect to product card */
+#productsList .product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover */
+    transform: translateY(-5px); /* Add translateY for a slight lift effect */
+}
+
+/* Product Card Styles */
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.product-description {
+    margin-top: 12px;
+}
+
+.product-category {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.product-actions {
+    margin-top: 16px;
+}
+
+/* CSS for form container */
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    transition: color 0.3s ease; /* Add transition for text color */
+}
+
+.form-container .form-label {
+    font-weight: bold;
+}
+
+.form-container .form-control {
+    margin-bottom: 15px;
+}
+
+.form-container .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-container:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
+    transform: translateY(-5px); /* Add translateY for a slight lift effect on hover */
+}
+
+.amazon-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Custom CSS for sign-up and sign-in forms */
+
+.container {
+    margin-top: 20px; /* Add margin from top */
+}
+
+/* Form container styling */
+.form-container {
+    border: 1px solid #ccc; /* Add border */
+    padding: 20px; /* Add padding */
+}
+
+/* Amazon logo styling */
+.amazon-logo {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Form input styling */
+.form-control {
+    margin-bottom: 15px;
+}
+
+
+/* Button styling */
+.btn-primary {
+    width: 100%; /* Make buttons full width */
+}
+
+
+/* Add spacing between dropdown and products list */
+#productsList {
+    margin-top: 20px;
+}
+
+/* Apply effects to the products list */
+#productsList .product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition for box-shadow and transform */
+}
+
+/* Add hover effect to product card */
+#productsList .product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow on hover */
+    transform: translateY(-5px); /* Add translateY for a slight lift effect */
+}
+
+/* Add margin between product items */
+#productsList .product-card + .product-card {
+    margin-top: 20px;
+}
+
+/* Product Card Styles */
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.product-description {
+    margin-top: 12px;
+}
+
+.product-category {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.product-actions {
+    margin-top: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+    width: 500px;
+    display: block; /* Ensure button is a block-level element */
+    margin-left: auto; /* Set left margin to auto */
+    margin-right: auto; /* Set right margin to auto */
+}
+
+.btn-primary i {
+    margin-right: 5px; /* Adjust margin between icon and text */
+    font-size: 1.2rem; /* Adjust icon size */
+    color: white; /* Set icon color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border: none;
+	border-radius: 4px;
+	padding: 8px 16px;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+}
+
+/* Cart item styles */
+.cart-item {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.cart-item .cart-product {
+	display: flex;
+}
+
+.cart-item .cart-product-image {
+	width: 100px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.cart-item .cart-product-info {
+	flex: 1;
+}
+
+.cart-item .cart-product-name {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.cart-item .cart-product-price {
+	color: #666;
+	margin-bottom: 5px;
+}
+
+.cart-item .cart-product-quantity {
+	color: #999;
+}
+
+.cart-item .cart-actions {
+	margin-top: 10px;
+}
+
+/* Add margin between tabs and cart items */
+#cartItems {
+    margin-top: 20px;
+}
+
+/* Change effect when clicking on tabs */
+.nav-link.active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Container for profile section */
+.profile-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #ccc;
+	padding: 30px;
+	border-radius: 10px;
+	width: 1200px;
+	height: 550px;
+}
+
+/* Style for the profile section */
+.profile-section {
+	margin-bottom: 30px;
+}
+
+/* Style for the profile avatar */
+.profile-avatar {
+	margin-bottom: 40px;
+}
+
+/* Style for the avatar image */
+.avatar-img {
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+/* Style for profile details */
+.profile-details {
+	margin-bottom: 30px;
+}
+
+/* Style for profile inputs */
+.profile-input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Style for profile details label */
+.profile-input label {
+	font-weight: bold;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Style for profile inputs */
+.profile-input input[type="text"] {
+	width: 300px;
+}
+
+/* Remove blue color effect when clicking on tabs */
+.nav-link.active {
+    background-color: transparent; /* Remove background color */
+    color: inherit; /* Inherit text color */
+    border-radius: 0; /* Remove border radius */
+    border-bottom: 2px solid #007bff; /* Add bottom border */
+}
+
+/* Add hover effect to tabs */
+.nav-link:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+}
+
+
+/* Style for the update profile button */
+#updateProfileBtn,
+#saveChangesBtn {
+	width: 250px;
+	border-radius: 4px;
+	padding: 10px 16px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+#updateProfileBtn {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+}
+
+#updateProfileBtn:hover {
+	background-color: #0056b3;
+}
+
+#saveChangesBtn {
+	background-color: #28a745;
+	color: #fff;
+	border: none;
+}
+
+#saveChangesBtn:hover {
+	background-color: #218838;
+}
+
+/* Center all content within the profile container */
+.profile-container * {
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Style the container for the custom select */
+.custom-select {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Style the select to hide the default arrow */
+  .custom-select select {
+	display: none;
+  }
+  
+  /* Style the custom dropdown arrow */
+  .custom-select::after {
+	content: '\25BC'; /* Unicode character for down arrow */
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	pointer-events: none; /* Ensure the arrow does not interfere with the select */
+  }
+  
+  /* Apply styles to the filter button */
+.dropdowncontainer .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdowncontainer .btn-primary i {
+    margin-right: 5px; /* Adjust margin between icon and text */
+}
+
+.dropdowncontainer .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.dropdowncontainer {
+    text-align: center;
+    margin-top: 20px; /* Add some spacing from the top */
+}
+
+.dropdowncontainer .custom-select {
+    display: inline-block;
+    width: 200px; /* Set width of the select */
+    height: 50px; /* Set height of the select */
+    margin-right: 10px; /* Add some spacing between the select and button */
+    vertical-align: middle; /* Align vertically with the button */
+    transition: box-shadow 0.3s ease;
+}
+
+.dropdowncontainer .custom-select select {
+    width: 100%; /* Set width to fill the container */
+    height: 100%; /* Set height to fill the container */
+    padding: 10px; /* Add padding to match button */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    -webkit-appearance: none; /* Remove default arrow for WebKit browsers */
+    -moz-appearance: none; /* Remove default arrow for Firefox */
+    appearance: none; /* Remove default arrow for other browsers */
+    transition: box-shadow 0.3s ease;
+}
+
+.dropdowncontainer .custom-select::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%; /* Position arrow vertically centered */
+    transform: translateY(-50%);
+    right: 10px;
+    pointer-events: none; /* Ensure the arrow does not interfere with the select */
+}
+
+.dropdowncontainer button {
+    display: inline-block; /* Display button inline with select */
+    width: 200px; /* Set width of the button */
+    height: 50px; /* Set height of the button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    vertical-align: middle; /* Align vertically with the select */
+    transition: background-color 0.3s ease;
+}
+
+
+
+  /* Style the button */
+  button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	height: 50px; /* Set height of the button */
+	transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Style the container for the custom select */
+  .custom-select {
+	position: relative;
+	display: inline-block;
+	margin-right: 10px; /* Add some spacing between the select and button */
+  }
+  
+  /* Style the select to hide the default arrow */
+  .custom-select select {
+	display: block;
+	width: 200px; /* Set width of the select */
+	height: 50px; /* Set height of the select */
+	padding: 10px; /* Add padding to match button */
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	-webkit-appearance: none; /* Remove default arrow for WebKit browsers */
+	-moz-appearance: none; /* Remove default arrow for Firefox */
+	appearance: none; /* Remove default arrow for other browsers */
+  }
+  
+  /* Style the custom dropdown arrow */
+  .custom-select::after {
+	content: '\25BC'; /* Unicode character for down arrow */
+	position: absolute;
+	top: 50%; /* Position arrow vertically centered */
+	transform: translateY(-50%);
+	right: 10px;
+	pointer-events: none; /* Ensure the arrow does not interfere with the select */
+  }
+  
+  /* Style the button */
+  button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	height: 50px; /* Set height of the button */
+  }
+  
+  button:hover {
+	background-color: #0056b3;
+  }
+  
+  
+  
